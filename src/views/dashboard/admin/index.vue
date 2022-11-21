@@ -89,6 +89,7 @@ export default {
     }
   },
   methods: {
+    // 设置折线图数据
     handleSetLineChartData(type) {
       this.lineChartData = lineChartData[type]
     }

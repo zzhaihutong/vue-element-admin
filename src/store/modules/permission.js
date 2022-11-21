@@ -7,6 +7,7 @@ import { asyncRoutes, constantRoutes } from '@/router'
  */
 function hasPermission(roles, route) {
   if (route.meta && route.meta.roles) {
+    console.log(roles.some(role => route.meta.roles.includes(role)), '跳转判定')
     return roles.some(role => route.meta.roles.includes(role))
   } else {
     return true
@@ -47,6 +48,7 @@ const mutations = {
 }
 
 const actions = {
+  // 生成路由
   generateRoutes({ commit }, roles) {
     return new Promise(resolve => {
       let accessedRoutes
