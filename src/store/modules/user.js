@@ -112,12 +112,12 @@ const actions = {
 
     resetRouter()
 
-    // generate accessible routes map based on roles
+    // 根据角色生成可访问路由图
     const accessRoutes = await dispatch('permission/generateRoutes', roles, { root: true })
     // dynamically add accessible routes
     router.addRoutes(accessRoutes)
 
-    // reset visited views and cached views
+    // 重置访问的视图和缓存的视图
     dispatch('tagsView/delAllViews', null, { root: true })
   }
 }

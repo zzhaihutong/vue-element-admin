@@ -92,7 +92,7 @@ export default {
     }
   },
   created() {
-    // Mock: get all routes and roles list from server
+    // Mock: 从服务器获取所有路由和角色列表
     this.getRoutes()
     this.getRoles()
   },
@@ -107,7 +107,7 @@ export default {
       this.rolesList = res.data
     },
 
-    // Reshape the routes structure so that it looks the same as the sidebar
+    // 重塑路由结构，使其看起来与侧边栏相同
     generateRoutes(routes, basePath = '/') {
       const res = []
 
