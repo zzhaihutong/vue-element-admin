@@ -17,6 +17,12 @@ const roles = [{
         routes: routes
     },
     {
+        key: 'lyq',
+        name: 'lyq',
+        description: '超级管理员,可以访问所有页面。',
+        routes: routes
+    },
+    {
         key: 'editor',
         name: 'editor',
         description: 'Normal Editor. Can see all pages except permission page',

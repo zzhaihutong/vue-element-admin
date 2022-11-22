@@ -71,7 +71,7 @@ const asyncRoutes = [{
         meta: {
             title: 'Permission',
             icon: 'lock',
-            roles: ['admin', 'editor', 'zzh']
+            roles: ['admin', 'editor', 'zzh', 'lyq']
         },
         // 子导航
         children: [{
@@ -80,7 +80,7 @@ const asyncRoutes = [{
                 name: 'PagePermission',
                 meta: {
                     title: 'Page Permission',
-                    roles: ['admin', 'zzh']
+                    roles: ['admin', 'zzh', 'lyq']
                 }
             },
             {
@@ -97,7 +97,7 @@ const asyncRoutes = [{
                 name: 'RolePermission',
                 meta: {
                     title: 'Role Permission',
-                    roles: ['admin', 'zzh']
+                    roles: ['admin', 'zzh', 'lyq']
                 }
             }
         ]

@@ -135,7 +135,7 @@ export const asyncRoutes = [{
   meta: {
     title: '权限许可',
     icon: 'lock',
-    roles: ['admin', 'editor', 'zzh'] // 你可以在根导航中设置角色
+    roles: ['admin', 'editor', 'zzh', 'lyq'] // 你可以在根导航中设置角色
   },
   children: [{
     path: 'page',
@@ -144,7 +144,7 @@ export const asyncRoutes = [{
     name: 'PagePermission',
     meta: {
       title: '页面权限',
-      roles: ['admin', 'zzh'] // 或者你只能在子导航中设置角色
+      roles: ['admin', 'zzh', 'lyq'] // 或者你只能在子导航中设置角色
     }
   },
   {
@@ -164,7 +164,7 @@ export const asyncRoutes = [{
     name: 'RolePermission',
     meta: {
       title: '角色权限',
-      roles: ['admin', 'zzh']
+      roles: ['admin', 'zzh', 'lyq']
     }
   }
   ]

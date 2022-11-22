@@ -7,6 +7,9 @@ const tokens = {
     },
     zzh: {
         token: 'zzh-token'
+    },
+    lyq: {
+        token: 'lyq-token'
     }
 }
 
@@ -25,6 +28,12 @@ const users = {
     },
     'zzh-token': {
         roles: ['zzh'],
+        introduction: 'I am a super administrator',
+        avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
+        name: '朱振华/文涛/小强的第一个开源项目'
+    },
+    'lyq-token': {
+        roles: ['lyq'],
         introduction: 'I am a super administrator',
         avatar: 'https://wpimg.wallstcn.com/f778738c-e4f8-4870-b634-56703b4acafe.gif',
         name: '朱振华/文涛/小强的第一个开源项目'
